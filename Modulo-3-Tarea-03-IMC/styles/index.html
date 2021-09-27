@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Calculador IMC</title>
+</head>
+
+<body>
+    <main>
+        <form id="form-info" action="#" method="get" name="fimc">
+            <h1 id="title">calculadora imc</h1>
+            <p id="resume"> Descubre tu índice de masa corporal</p>
+            <div class="customer-info"><label for="gender">Sexo</label>
+                <input type="radio" name="sexo" value="female" checked>Femenino
+                <input type="radio" name="sexo" value="male">Masculino
+            </div>
+            <div class="customer-info"><label for="Edad">Edad</label>
+                <input type="text" name="age" id="age">
+            </div>
+            <div class="customer-info"><label for="Peso">Peso</label>
+                <input type="text" name="weigth" id="weigth" placeholder="(KG)">
+            </div>
+            <div class="customer-info"><label for="Altura">Altura</label>
+                <input type="text" name="higth" id="higth" placeholder="(M)">
+            </div>
+            <div> <input id="submit" type="button" value="calculaImc"></div>
+            <div>
+                <h1 id="results" for="resultados">Resultados</h1>
+            </div>
+            <div id="results-fimc">        
+            </div>
+            <div id="read-r">          
+            </div>
+            <div>
+                <h2>Estadisticas</h2>
+                <table>
+                    <thead id="table-header">
+                        <th>Sexo</th> 
+                        <th>Edad</th>
+                        <th>Peso</th>
+                        <th>Altura</th>
+                        <th>IMC</th>
+                    </thead>
+                    <tbody id="table-body"></tbody>
+                </table>
+            </div>
+        </form>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>

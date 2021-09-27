@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="#">
+  <link rel="stylesheet" href="./grupo.css">
+  <title>Fresh Market</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Fresh Market</h1>
+    <nav>
+      <ul id="navList">
+        <li class="navItem"><a href="#">Inicio</a></li>
+        <li class="navItem"><a href="#products">Productos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <div id="coverImage">
+      <p class="description">¡Consigue aquí los mejores precios!</p>
+    </div>
+
+
+    <div class="products" id="products">
+      <template id="catalogue">
+        <div class="card">
+          <h5 id="productTitle"></h5>
+          <img id="image" src="" alt=""></img>
+          <p id="price"></p>
+          <p id="detail"></p>
+          <button type="button" id="btn" class="btn">Agregar</button>
+          </div>
+        </div>
+      </template>   
+    </div>
+
+    <template id="catalogue-detail">
+        <div class="card">
+          <h1 id="productTitle"></h1>
+          <img id="image" src="" alt=""></img>
+          <p id="price"></p>
+          <p id="detail"></p>
+          </div>
+        </div>
+      </template>
+    
+    <div id="detail"></div>
+
+  <footer>&copy; Todos los derechos reservados</footer>
+
+  <script src="grupodata.js" type="module"></script>
+  <script src="grupo.js" type="module"></script>
+</body>
+
+</html>

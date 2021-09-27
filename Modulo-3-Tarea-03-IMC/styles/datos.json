@@ -1,0 +1,17 @@
+[
+    {"sexo":"Masculino", "edad":"26", "peso":"66", "altura":"1.75"},
+    {"sexo":"Femenino", "edad":"24", "peso":"49", "altura":"1.55"},
+    {"sexo":"Masculino", "edad":"21", "peso":"52", "altura":"1.65"},
+    {"sexo":"Femenino", "edad":"30", "peso":"150", "altura":"1.70"},
+    {"sexo":"Masculino", "edad":"19", "peso":"68", "altura":"1.85"},
+    {"sexo":"Femenino", "edad":"22", "peso":"52", "altura":"1.60"},
+    {"sexo":"Masculino", "edad":"28", "peso":"75", "altura":"1.64"},
+    {"sexo":"Femenino", "edad":"32", "peso":"69", "altura":"1.65"},
+    {"sexo":"Femenino", "edad":"29", "peso":"80", "altura":"1.80"},
+    {"sexo":"Masculino", "edad":"31", "peso":"90", "altura":"1.77"},
+    {"sexo":"Masculino", "edad":"23", "peso":"43", "altura":"1.60"},
+    {"sexo":"Femenino", "edad":"18", "peso":"60", "altura":"1.58"},
+    {"sexo":"Femenino", "edad":"33", "peso":"68", "altura":"1.60"},
+    {"sexo":"Masculino", "edad":"25", "peso":"78", "altura":"1.90"},
+    {"sexo":"Femenino", "edad":"34", "peso":"96", "altura":"1.92"}   
+]

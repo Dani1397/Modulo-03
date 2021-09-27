@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="#">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <title>Purple Drama</title>
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <ul id="navUl">
+        <li id="logo" class="navItem"> <img id="logo-s" src="./multimedia/logo_small_icon_only_inverted.png" alt="Purple">Purple Drama</li>
+        <li class="navItem"><a href="#">Home</a></li>
+        <li class="navItem"><a href="#form">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div id="video">
+      <video src="./multimedia/Goblin Trailer.mp4" controls></video>
+    </div>
+
+    <div class="row" id="items"></div>
+
+    <template id="template-card">
+      <div class="card">
+        <h5></h5>
+        <img id="image" src="" alt="" class="img-thumbnail my-4"></img>
+      </div>
+    </template>
+
+    <template id="template-detail">
+      <div class="card-1">
+        <h2></h2>
+        <img id="image-des" src="" alt="" class="img-thumbnail my-4"></img>
+        <div id="created"></div>
+        <div id="description"></div>
+        <div id="emition"></div>
+      </div>
+    </template>
+
+    <div id="detail"></div>
+
+    <div class="contenedor-Formulario">
+      <div class="content">
+
+        <form action="" class="form" id="form" onsubmit="">
+          <!--functionSubmit(event)-->
+          <h2>Join our community</h2>
+          <input id="inputName" type="text" placeholder="Enter name" required>
+          <input id="email" type="Email" name="email" placeholder="Enter email" required>
+          <select name="gender" id="gender" value="Gender">
+            <option value="0">Gender</option>
+            <option value="F">Female</option>
+            <option value="M">Male</option>
+            <option value="O">Other</option>
+          </select>
+          <label for="">Menssage</label>
+          <textarea id="msm" cols="30" rows="10"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="containerF">
+      <p>
+        Privacy policy Legal notice Terms and conditions Follow us
+        on Facebook Instagram Pinterest Twitter Linkedin
+      </p>
+    </div>
+  </footer>
+
+  <script src="./scripts/script.js" type="module"></script>
+  <script src="./data/data.js" type="module"></script>
+</body>
+
+</html>
